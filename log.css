@@ -1,0 +1,55 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(23, 198, 55, 0.599);
+}
+
+
+/*sectio background*/
+
+
+section div {
+    height: 500px;
+
+
+    width: 700px;
+    margin-top: 13rem;
+    margin-left: 12rem;
+
+
+
+}
+
+div #caution {
+    justify-content: center;
+}
+
+
+div #caution h1 {
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    text-align: center;
+
+}
+
+div #caution p {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+div #caution a {
+    text-align: center;
+    justify-content: center;
+    text-decoration: dashed;
+    font-size: 44px;
+    color: rgba(189, 13, 157, 0.584);
+    display: flex;
+    border: 5px rgb(226, 195, 43) solid;
+}
+
+
+a :hover {
+    display: flex;
+    box-shadow: 2px black;
+
+}

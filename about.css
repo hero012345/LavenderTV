@@ -1,0 +1,36 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(141, 124, 124);
+
+  background-size: cover;
+  background-position: center;
+  height: 690px;
+  margin: 0;
+  padding: 0%;
+}
+
+section {
+  justify-content: center;
+  text-align: center;
+  margin-left: 4em;
+}
+
+section div {
+  width: 80rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 11rem;
+  border: rgb(0, 0, 0) 5px solid;
+  border-radius: 1rem;
+  display: flex;
+  width: 1300px;
+  color: #ffb300;
+  font-size: 20px;
+
+
+}
+
+.back img {
+  margin-left: 50%;
+  size: 100px;
+}

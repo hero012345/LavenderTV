@@ -1,0 +1,332 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+/*header style*/
+
+
+header {
+    font-size: 23px;
+    display: flex;
+    border: 1px black solid;
+    background-color: #03a9f4;
+    font-family: "Boogaloo", sans-serif;
+    height: 100px;
+    padding: 0;
+    position: relative;
+
+
+}
+
+
+header .brand {
+    left: 2rem;
+    height: 55px;
+    position: absolute;
+    top: 1rem;
+}
+
+
+
+header .log {
+    right: 2rem;
+    height: 55px;
+    position: absolute;
+    top: 1rem;
+
+}
+
+
+header h1 {
+    position: absolute;
+    left: 7rem;
+    top: 0.9rem;
+    font-size: 25px;
+
+}
+
+header #center {
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    right: 40%;
+
+    width: auto;
+    height: auto;
+
+}
+
+
+header #center nav {
+    justify-content: center;
+    text-align: center;
+    margin-left: 10rem;
+    height: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+
+header #center ul {
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    height: auto;
+}
+
+
+
+
+header a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+
+    height: auto;
+
+}
+
+
+
+
+header li {
+    list-style: none;
+}
+
+
+header #log {
+    justify-content: right;
+    align-self: right;
+    margin-left: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+
+}
+
+/*end header style*/
+
+
+
+/*poster film and link style*/
+.film-card {
+    margin-left: 11rem;
+    margin-top: 10rem;
+
+    position: relative;
+}
+
+.film-card div {
+
+    margin-left: -1rem;
+
+    display: flex;
+    flex: 1;
+    padding: 0;
+    text-align: center;
+}
+
+.film-card div h5 {
+    display: flex;
+    height: 30px;
+}
+
+.film-card img {
+    /*! display: inline-flexbox; */
+
+
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+
+    display: inline;
+    display: flex;
+    margin-left: 6rem;
+    border: red aliceblue;
+    border: red 2px solid;
+}
+
+
+
+.film-card h5 {
+    color: red;
+    font-size: 29px;
+
+}
+
+.h5-title {
+    padding: 0;
+    margin-left: 10%;
+}
+
+.h5-title a {
+    color: red;
+    font-size: 29px;
+    text-decoration: none;
+    display: flex;
+
+
+
+
+}
+
+.h5-title .one {
+    margin-left: 10rem;
+}
+
+.h5-title .two {
+    margin-left: 27rem;
+    margin-top: -6.6rem;
+}
+
+.h5-title .thr {
+    margin-left: 45rem;
+    margin-top: -6.6rem;
+}
+
+.h5-title .for {
+    margin-left: 60rem;
+    margin-top: -6.6rem;
+}
+
+/*end of film and link style*/
+
+
+
+/*customer style part*/
+/*left part*/
+#customer {
+    background-color: gray;
+    font-size: 1rem;
+    display: flex;
+    color: rgb(129, 67, 67);
+}
+
+#customer li {
+    list-style-type: disc;
+}
+
+#customer a {
+    text-decoration: none;
+    color: rgb(129, 67, 67);
+}
+
+#customer #center ul {
+
+    margin-left: 30rem;
+
+}
+
+#customer #Right ul {
+
+    margin-left: 22rem;
+
+}
+
+/*end of customer style part */
+
+
+
+
+
+/*footer style*/
+footer {
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: #03a8f441;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+}
+
+section #containerin {
+    display: flex;
+    margin-left: 1rem;
+
+    margin-top: 0.5rem;
+
+}
+
+
+
+
+footer section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer .name {
+    font-family: "Boogaloo", sans-serif;
+    position: relative;
+    right: 11rem;
+
+}
+
+footer .copy {
+    position: relative;
+    right: 50%;
+
+
+}
+
+.sociali {
+    position: relative;
+    top: 0.2rem;
+    right: 20rem;
+    display: flex;
+
+
+}
+
+section #aligne {
+    height: auto;
+    padding: 0;
+    width: 400px;
+    justify-content: space-around;
+}
+
+footer #insta {
+    height: 40px;
+    width: auto;
+}
+
+/*end footer style*/

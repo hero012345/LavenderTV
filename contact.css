@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+section {
+  justify-content: center;
+  align-content: center;
+  margin-left: 36rem;
+  width: auto;
+}
+
+section h3 {
+  text-align: 50%;
+}
+
+
+section img {
+  margin-left: 5%;
+}
+
+
+
+section a {
+  text-align: center;
+  text-decoration: underline;
+  color: rgba(17, 191, 57, 0.552);
+  margin-left: 5rem;
+}

@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+}
+
+iframe {
+    padding: 0%;
+    position: absolute;
+    margin-left: 17rem;
+}
